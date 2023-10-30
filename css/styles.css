@@ -13,6 +13,8 @@
   --button-text-color: #ffffff;
   --navigation-color: #212121;
   --var-color: #e7e9fc;
+  --var-color-ocean:#404BBF;
+  --var-color:#31D0AA;
 }
 body {
   font-family: "Roboto", sans-serif;
