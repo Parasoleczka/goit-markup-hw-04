@@ -280,8 +280,15 @@ img {
 }
 .about-us {
   padding: 120px 0;
-}
 
+}
+.icons-about {
+display: block;
+justify-content: space-around;
+}
+.customers {
+  display: block;
+}
 .button {
   text-align: center;
   background-color: #2196f3;
@@ -297,14 +304,6 @@ img {
   min-width: 169px;
   min-height: 56px;
 }
-/* .nav-header-portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background: var(--WHITE, #fff);
-  width: 1440px;
-  height: 72px;
-  margin-right: auto; */
 
 .ul-portfolio {
   display: flex;
