@@ -13,6 +13,7 @@
   --button-text-color: #ffffff;
   --navigation-color: #212121;
   --var-color: #e7e9fc;
+  --Light: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -244,9 +245,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.social-container{
-  padding:32px 0px;
-}
 .social-media {
   display: flex;
   gap: 24px;
@@ -255,18 +253,18 @@ img {
 .social-media-list {
   width: 40px;
   height: 40px;
-} 
+}
 .social-media-link {
   fill: rgba(244, 244, 253, 1);
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
   border: none;
-  background-color: rgba(77, 90, 229, 1);
-  border-radius: 50%;
-  cursor: pointer;
 }
 .paragraph {
   color: var(--SLATE, #434455);
@@ -321,23 +319,34 @@ img {
 .about-us {
   padding: 120px 0;
 }
-.icons-about {
-  border-radius: 4px;
-  background: var(--CLOUD, #f4f4fd) 264px 112px;
-  padding: 24px;
-  width: 64px;
-  height: 64px;
+.customers {
+  padding: 120px 0;
 }
-
 .ul-customers {
-  display: block;
-  justify-content: center;
+  display: flex;
   gap: 24px;
   list-style: none;
 }
+.ul-customers :hover {
+  color: rgba(64, 75, 191, 1);
+}
+
 .li-customers {
-  width: calc((100%-120px)) / 6;
+  width: calc((100% - 120px) / 6);
   height: 88px;
+}
+.customers-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+.icons-svg {
+  fill: currentColor;
 }
 
 .button {
