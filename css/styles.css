@@ -254,6 +254,9 @@ img {
   width: 40px;
   height: 40px;
 }
+.media-icons :hover {
+  color: rgba(49, 208, 170, 1);
+}
 .social-media-link {
   fill: rgba(244, 244, 253, 1);
   background-color: rgba(77, 90, 229, 1);
@@ -281,6 +284,11 @@ img {
   color: var(--tittle-color);
   padding: 100px 0;
 }
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
 .footer-logo {
   color: var(--main-color);
   font-family: "Raleway", sans-serif;
@@ -295,6 +303,18 @@ img {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-div {
+  margin-right: 120px;
+}
+.social-media-title {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  text-wrap: nowrap;
 }
 
 .logo-web-footer {
