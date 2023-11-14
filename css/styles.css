@@ -29,6 +29,7 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .header-wrap {
   display: flex;
@@ -113,18 +114,19 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
+  line-height: 1.11;
 }
 .hero {
   background: var(--secondry-bacground-color);
   margin: 0 auto;
   height: 600px;
   padding: 188px 0;
-}
-.background-image {
   background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
     url("../images/people-office\ 1\ \(1\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
+  background-position: center;
 }
 
 .hero-text {
@@ -247,15 +249,19 @@ img {
 }
 .social-media {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
+  justify-content: center;
 }
 .social-media-list {
   width: 40px;
   height: 40px;
 }
-.media-icons :hover {
+.social-media-link :hover {
   color: rgba(49, 208, 170, 1);
+}
+.social-media-link :hover {
+  background-color: #404bbf;
 }
 .social-media-link {
   fill: rgba(244, 244, 253, 1);
@@ -364,6 +370,9 @@ img {
   border-radius: 4px;
   width: 100%;
   height: 100%;
+}
+.customers-icons :hover {
+  border-color:#404bbf;
 }
 .icons-svg {
   fill: currentColor;
