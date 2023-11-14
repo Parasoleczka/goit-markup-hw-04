@@ -253,7 +253,7 @@ img {
 }
 .social-media {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
   justify-content: center;
 }
@@ -264,7 +264,7 @@ img {
 .social-media :hover {
   background-color: rgba(49, 208, 170, 1);
 }
-.social-media-link :focus {
+.social-media-link :focus :hover {
   background-color: #404bbf;
 }
 .social-media-link {
