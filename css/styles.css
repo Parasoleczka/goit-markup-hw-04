@@ -489,10 +489,11 @@ img {
 .items {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
 }
-
+.items :hover {
+  border: 1px solid #e7e9fc;
+}
 .headline {
   margin-bottom: 8px;
   font-family: "Roboto";
