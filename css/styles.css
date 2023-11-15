@@ -117,7 +117,11 @@ body {
   justify-content: center;
   margin-bottom: 72px;
   line-height: 1.11px;
-}
+        font-style: normal;
+    font-weight: 700;
+       letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
 .hero {
   background: var(--secondry-bacground-color);
   margin: 0 auto;
@@ -127,7 +131,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office\ 1\ \(1\).jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
@@ -201,14 +205,7 @@ body {
   list-style-type: none;
   flex-basis: calc((100% - 48px) / 3);
 }
-.second-heading {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
+
 .team-container {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -261,16 +258,16 @@ img {
 .social-media-list {
   width: 40px;
   height: 40px;
+  gap: 24px;
 }
-.social-media :hover {
-  background-color: rgba(49, 208, 170, 1);
-}
-.social-media-link :focus {
-  background-color: #404bbf;
+.social-media-footer :hover {
+  background-color: rgba(49, 208, 170, 1);}
+.social-media-link :focus
+ .social-:hover {
+  background-color: var(--blue-color);
 }
 
 .social-media-link {
-  fill: rgba(244, 244, 253, 1);
   background-color: rgba(77, 90, 229, 1);
   border-radius: 50%;
   cursor: pointer;
@@ -384,7 +381,7 @@ img {
   border-color: #404bbf;
 }
 .icons-svg {
-  fill: #f4f4fd;
+  fill: currentColor;
 }
 
 .button {
