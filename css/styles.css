@@ -116,12 +116,12 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  line-height: 1.11px;
-        font-style: normal;
-    font-weight: 700;
-       letter-spacing: 0.72px;
-    text-transform: capitalize;
-  }
+  line-height: 1.11;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 .hero {
   background: var(--secondry-bacground-color);
   margin: 0 auto;
@@ -249,6 +249,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .social-media {
   display: flex;
   gap: 16px;
@@ -261,9 +262,9 @@ img {
   gap: 24px;
 }
 .social-media-footer :hover {
-  background-color: rgba(49, 208, 170, 1);}
-.social-media-link :focus
- .social-:hover {
+  background-color: rgba(49, 208, 170, 1);
+}
+.social-media-link :focus .social-:hover {
   background-color: var(--blue-color);
 }
 
@@ -382,8 +383,11 @@ img {
 }
 .icons-svg {
   fill: currentColor;
+  fill: #f4f4fd;
 }
-
+.media-icons {
+  fill: var(--Light);
+}
 .button {
   text-align: center;
   background-color: #2196f3;
