@@ -261,7 +261,11 @@ img {
   height: 40px;
   gap: 16px;
 }
-.social-media-footer :hover {
+.social-media-footer {
+  gap: 16px;
+}
+.social-media-footer :hover,
+.social-media-footer :focus {
   background-color: rgba(49, 208, 170, 1);
 }
 
@@ -360,8 +364,7 @@ img {
   list-style: none;
 }
 
-.li-customers :hover
- {
+.li-customers :hover {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -407,7 +410,11 @@ img {
   min-width: 169px;
   min-height: 56px;
 }
-
+.button-portfolio-first :focus,
+.button-portfolio-first :hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .ul-portfolio {
   display: flex;
   justify-content: flex-start;
@@ -435,7 +442,9 @@ img {
   list-style: none;
   text-decoration: none;
 }
-
+.block-class {
+  display: block;
+}
 .links {
   margin-bottom: 8px;
   list-style: none;
@@ -514,11 +523,11 @@ img {
   list-style: none;
 }
 .img-class {
-  display: block;
   width: calc((100% - 48px) / 3);
 }
 
-.img-class :hover {
+.img-class :hover,
+.img-class :focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
