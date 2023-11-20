@@ -1,7 +1,7 @@
 :root {
   --font-family: ("Roboto", "Raleway", sans-serif);
   --main-color: #ffffff;
-  --blue-color: #4d5ae5;
+  --Irys: #4d5ae5;
   --black-color: #000000;
   --gray-text-color: #434455;
   --secondry-bacground-color: #2f303a;
@@ -272,8 +272,10 @@ img {
   background-color: rgba(49, 208, 170, 1);
 }
 
-.social-media-link-team:hover,
-:focus {
+.social-media-link-team:hover {
+  background-color: #404bbf;
+}
+.social-media-link-team:focus {
   background-color: #404bbf;
 }
 .social-media-link-team {
@@ -398,6 +400,7 @@ img {
 .customers-icons:hover,
 :focus {
   border-color: #404bbf;
+  color: #404bbf;
 }
 .icons-svg {
   fill: currentColor;
