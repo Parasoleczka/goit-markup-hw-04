@@ -506,13 +506,15 @@ img {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color : #404bbf;
+  background-color: #404bbf;
   color: #e5e5e5;
   border-radius: 4px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .hero-button-portfolio:focus,
-:hover {
+.hero-button-portfolio:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -525,10 +527,7 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
 }
-.button-portfolio:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
