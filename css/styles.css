@@ -269,8 +269,8 @@ img {
 .social-media-footer {
   gap: 16px;
 }
-.social-media-link-footer :hover,
-.social-media-link-footer :focus {
+.social-media-link:hover,
+.social-media-link:focus {
   background-color: rgba(49, 208, 170, 1);
 }
 
