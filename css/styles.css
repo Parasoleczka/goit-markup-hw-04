@@ -54,7 +54,7 @@ body {
   gap: 40px;
   list-style: none;
 }
-.menu:active {
+.links-menu:active {
   color: var(--Irys);
 }
 .address {
@@ -269,8 +269,8 @@ img {
 .social-media-footer {
   gap: 16px;
 }
-.social-media-footer :hover,
-.social-media-footer :focus {
+.social-media-link-footer :hover,
+.social-media-link-footer :focus {
   background-color: rgba(49, 208, 170, 1);
 }
 
@@ -513,11 +513,11 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.hero-button-portfolio:focus,
+/* .hero-button-portfolio:focus,
 .hero-button-portfolio:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
+
 .button-portfolio {
   list-style: none;
   border: 1px solid transparent;
