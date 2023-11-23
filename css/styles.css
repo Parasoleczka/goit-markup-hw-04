@@ -61,7 +61,6 @@ body {
 .address {
   display: flex;
   font-style: normal;
-  margin-left: auto;
   align-items: center;
   list-style: none;
   color: #434455;
@@ -98,7 +97,7 @@ body {
 }
 .logo-web-header {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
@@ -107,7 +106,7 @@ body {
 }
 
 .logo-web {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.2;
   color: black;
@@ -314,12 +313,13 @@ img {
 }
 .paragraph {
   color: var(--SLATE, #434455);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  border-top: none;
 }
 
 .footer-container {
@@ -362,7 +362,7 @@ img {
 
 .logo-web-footer {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   line-height: 1.2;
   color: var(--Irys);
 }
@@ -394,6 +394,7 @@ img {
 .li-customers {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  width: 166px;
   gap: 24px;
 }
 .customers-icons {
@@ -433,14 +434,7 @@ img {
   min-width: 169px;
   min-height: 56px;
 }
-.button-portfolio:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.button-portfolio:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .ul-portfolio {
   display: flex;
   justify-content: flex-start;
@@ -471,14 +465,11 @@ img {
 .block-class {
   display: block;
 }
-.block-class:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+.img-class {
+  width: calc((100% - 48px) / 3);
 }
-.block-class:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 .links {
   margin-bottom: 8px;
   list-style: none;
@@ -519,9 +510,8 @@ img {
 .button-portfolio:focus {
   background-color: #404bbf;
   color: #e5e5e5;
-  border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 
 .button-portfolio {
@@ -548,17 +538,16 @@ img {
 }
 
 .images-portfolio {
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
-  list-style: none;
-}
-.img-class {
-  width: calc((100% - 48px) / 3);
+  row-gap: 48px;
+  column-gap: 24px;
+  padding: 0;
 }
 
-.img-class :hover,
-.img-class :focus {
+.img-class:hover,
+.img-class:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -566,13 +555,12 @@ img {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
   border-top: none;
+  text-decoration: none;
 }
 
 .headline {
   margin-bottom: 8px;
-  font-family: "Roboto";
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -586,7 +574,7 @@ img {
   display: block;
   padding-left: 30;
   justify-content: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
