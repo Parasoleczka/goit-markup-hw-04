@@ -410,7 +410,7 @@ img {
   gap: 24px;
 }
 .customers-icons:hover,
-:focus {
+.customer-icons:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -465,6 +465,7 @@ img {
 }
 .block-class {
   display: block;
+  text-decoration: none;
 }
 
 .img-class {
