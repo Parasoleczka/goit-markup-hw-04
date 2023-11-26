@@ -396,6 +396,7 @@ img {
   height: 88px;
   width: 166px;
   gap: 24px;
+  width: calc((100%-120px)/6);
 }
 
 .customers-icons {
