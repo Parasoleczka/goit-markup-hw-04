@@ -398,9 +398,7 @@ img {
   width: 166px;
   gap: 24px;
 }
-.li-customers-one {
-  width: calc((100%-120px)/6);  
-}
+
 .customers-icons {
   display: flex;
   justify-content: center;
