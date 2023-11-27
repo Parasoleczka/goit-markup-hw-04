@@ -60,7 +60,7 @@ body {
   font-style: normal;
   align-items: center;
   list-style: none;
-  color:var(--SLATE);
+  color: var(--Slate);
   letter-spacing: 0.02em;
   gap: 40px;
   text-decoration: none;
