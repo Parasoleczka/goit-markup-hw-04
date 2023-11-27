@@ -8,7 +8,7 @@
   --Cloud: #f4f4fd;
   --Ocean: #404bbf;
   --Dairy:#FCFCFC;
-  --Grey:#2E2F42;
+  --Navy-Blue:#2E2F42;
   --LIGHT-SLATE:#8E8F99;
   --Green: #31D0AA;
 }
@@ -118,7 +118,7 @@ body {
 
 .second-heading {
   font-size: 36px;
-  color: var(--NAVY);
+  color: var(--Navy-Blue);
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
@@ -129,7 +129,7 @@ body {
   text-transform: capitalize;
 }
 .hero {
-  background: var(--NAVY);
+  background: var(--Navy-Blue);
   margin: 0 auto;
   height: 600px;
   padding: 188px 0;
@@ -157,8 +157,8 @@ body {
 }
 .button-hero {
   display: block;
-  background-color: #4d5ae5;
-  color: white;
+  background-color:var(--Irys);
+  color: var(--White);
   cursor: pointer;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -172,7 +172,7 @@ body {
 }
 .button-hero:hover,
 .button-hero:focus {
-  background-color: #404bbf;
+  background-color:var(--Ocean);
 }
 
 .about-list {
@@ -190,7 +190,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--Light);
+  background: var(--Cloud);
   border-radius: 4px;
   width: 264px;
   height: 112px;
@@ -215,7 +215,7 @@ body {
 .team-container {
   padding-bottom: 120px;
   padding-top: 120px;
-  background-color: var(--Cloud);
+  background-color: var(--White);
 }
 
 .team-text {
@@ -242,6 +242,7 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
 .team-img {
   text-align: center;
   padding: 32px 0;
@@ -305,7 +306,7 @@ img {
   gap: 24px;
 }
 .paragraph {
-  color: var(--SLATE);
+  color: var(--Slate);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -317,7 +318,7 @@ img {
 }
 
 .footer-container {
-  background-color: var(--Grey);
+  background-color: var(--Navy-Blue);
   color: var(--White);
   padding: 100px 0;
 }
@@ -396,8 +397,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #8e8f99;
-  border: 1px solid #8e8f99;
+  color: var(--LIGHT-SLATE);
+  border: 1px solid var(--LIGHT-SLATE);
   border-radius: 4px;
   width: 100%;
   height: 100%;
@@ -416,7 +417,7 @@ img {
 }
 .button {
   text-align: center;
-  background-color: #2196f3;
+  background-color: var(--Irys);
   color: white;
   cursor: pointer;
   font-weight: 700;
@@ -444,7 +445,7 @@ img {
   gap: 40px;
   list-style: none;
   align-items: center;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-bottom: 1px solid var(--CORNFLOWER);
 }
 .secend-nav-portfolio {
   display: flex;
@@ -509,7 +510,7 @@ img {
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  color: var(--White);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
