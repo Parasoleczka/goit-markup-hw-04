@@ -387,7 +387,7 @@ img {
 
 .li-customers {
   height: 88px;
-  width: 166px;
+  width: 168px;
   gap: 24px;
   width: calc((100%-120px)/6);
 }
