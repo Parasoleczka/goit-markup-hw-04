@@ -560,7 +560,7 @@ img {
 
 .headline {
   margin-bottom: 8px;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
