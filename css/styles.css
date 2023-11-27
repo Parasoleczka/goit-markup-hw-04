@@ -412,7 +412,7 @@ img {
   fill: currentColor;
 }
 .media-icons {
-  fill: var(--Light);
+  fill: var(--White);
 }
 .button {
   text-align: center;
