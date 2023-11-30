@@ -10,6 +10,7 @@
   --Navy-Blue: #2e2f42;
   --LIGHT-SLATE: #8e8f99;
   --Green: #31d0aa;
+  --White: #ffffff;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
   padding: 0 15px;
 }
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--CORNFLOWER);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -106,7 +107,7 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.2;
-  color: black;
+  color: var(--Black);
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 76px;
@@ -236,7 +237,7 @@ body {
 .team-list-item {
   width: 270px;
   background: var(--WHITE);
-  border-color: #757575;
+  border-color: var(--Dairy);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -346,7 +347,7 @@ img {
   margin-right: 120px;
 }
 .social-media-title {
-  color: white;
+  color: var(--WHITE);
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -406,8 +407,8 @@ img {
 }
 .customers-icons:hover,
 .customers-icons:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: var(--Ocean);
+  color: var(--Ocean);
 }
 .icons-svg {
   fill: currentColor;
@@ -475,7 +476,7 @@ img {
   margin-bottom: 8px;
   list-style: none;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--Navy-Blue);
   display: flex;
   align-items: center;
   gap: 40px;
@@ -486,7 +487,7 @@ img {
   font-weight: 500;
   list-style: none;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--Navy-Blue);
   display: flex;
   align-items: center;
   gap: 40px;
@@ -505,24 +506,24 @@ img {
   gap: 24px;
   margin-bottom: 72px;
   list-style: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #404bbf;
+  background-color: var(--Ocean);
   color: var(--Cloud);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portfolio {
   list-style: none;
   border: 1px solid transparent;
-  color: #4d5ae5;
+  color: var(--Irys);
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--CORNFLOWER);
 }
 
 .visually-hidden {
@@ -553,7 +554,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .items {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--CORNFLOWER);
   padding: 32px 16px;
   border-top: none;
   text-decoration: none;
