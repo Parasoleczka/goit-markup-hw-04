@@ -10,7 +10,7 @@
   --Navy-Blue: #2e2f42;
   --LIGHT-SLATE: #8e8f99;
   --Green: #31d0aa;
-  --White: #FFFFFF;
+  --White: #ffffff;
 }
 
 body {
@@ -512,6 +512,7 @@ img {
 .button-portfolio:focus {
   background-color: var(--Ocean);
   color: var(--Cloud);
+  border-color: transparent;
 }
 
 .button-portfolio {
